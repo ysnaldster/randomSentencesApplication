@@ -2,6 +2,7 @@
   "name": "frases-aleatorias",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://YsnaldoXVen.github.io/reto-frases-aleatorias",
   "dependencies": {
     "@chakra-ui/react": "^1.6.1",
     "@emotion/react": "^11",
@@ -25,6 +26,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
