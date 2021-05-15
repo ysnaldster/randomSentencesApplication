@@ -1,0 +1,54 @@
+.frases-main-container {
+  background-color: white;
+  padding: 20px 40px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.frases-main-container #text {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.frases-main-container #author {
+  margin: 20px 0;
+}
+
+.frases-main-container .autor-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.frases-main-container .interaccion-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  padding: 10px 0;
+}
+
+.frases-main-container .interaccion-container .interaccion-twitter-container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.frases-main-container .interaccion-container .interaccion-twitter-container a {
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+@media (min-width: 800px) {
+  .frases-main-container {
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=frases.css.map */
