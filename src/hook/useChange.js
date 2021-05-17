@@ -1,5 +1,5 @@
 import {useState} from 'react'
-
+import { mensajes } from '../utils/mensajes'
 
 export const useChange = (iniciador) => {
     function random(min, max) {
@@ -8,9 +8,8 @@ export const useChange = (iniciador) => {
     const [cambiar, setCambiar] = useState(iniciador)
 
     const cambiarMensaje = () => {
-        let aleatorio = random (1,2);
-        console.log(aleatorio);
-        setCambiar(cambiar + aleatorio);
+        let aleatorio = random (0, mensajes.length -1);
+        setCambiar(aleatorio);
     }
     return{
         cambiar,
